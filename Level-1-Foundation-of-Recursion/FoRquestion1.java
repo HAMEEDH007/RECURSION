@@ -9,9 +9,10 @@ public class FoRquestion1 {
 class number{
     int number = 10;
     public int fun(){
-        if(number == 1)return number;
+        if(number == 0)return number;
+        System.out.println(number);
         number--;
-         System.out.println(number);
+         
         fun();
        
         return number;

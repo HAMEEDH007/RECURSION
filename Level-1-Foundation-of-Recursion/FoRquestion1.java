@@ -7,10 +7,10 @@ public class FoRquestion1 {
     }
 }
 class number{
-    int number = 0;
+    int number = 10;
     public int fun(){
-        if(number == 10)return number;
-        number++;
+        if(number == 1)return number;
+        number--;
          System.out.println(number);
         fun();
        

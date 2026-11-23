@@ -3,18 +3,18 @@
 public class FoRquestion1 { 
     public static void main(String[] args) {
         number num = new number();
-        num.fun();
+        num.fun(1);
     }
 }
 class number{
-    int number = 10;
-    public int fun(){
-        if(number == 0)return number;
+    int number = 1;
+    public void fun(int number){
+        if(number == 11)return;
         System.out.println(number);
-        number--;
+        number++;
          
-        fun();
+        fun(number);
        
-        return number;
+        return;
     }
 }
